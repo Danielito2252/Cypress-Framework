@@ -48,9 +48,12 @@ Su propósito es servir como evidencia práctica de conocimientos en automatizac
 
 # 🎥 Demostración
 
-```markdown
+<div align="center">
+
 ![Login Demo](images/login-demo.gif)
-```
+
+</div>
+
 
 ---
 
