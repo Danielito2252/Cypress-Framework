@@ -48,10 +48,8 @@ Su propósito es servir como evidencia práctica de conocimientos en automatizac
 
 # 🎥 Demostración
 
-> Agrega aquí un GIF corto mostrando la ejecución automática del login.
-
 ```markdown
-![Login Demo](docs/images/login-demo.gif)
+![Login Demo](images/login-demo.gif)
 ```
 
 ---

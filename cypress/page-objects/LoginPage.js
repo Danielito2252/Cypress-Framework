@@ -1,22 +1,20 @@
 class LoginPage {
-  // Elementos (Selectores)
-  get emailInput() { return cy.get('#email'); }
+  // Selectores reales de la nueva página de pruebas
+  get usernameInput() { return cy.get('#username'); }
   get passwordInput() { return cy.get('#password'); }
-  get loginButton() { return cy.get('#loginButton'); }
-  get errorMessage() { return cy.get('.error'); }
+  get loginButton() { return cy.get('button[type="submit"]'); }
 
-  // Acciones (Métodos reutilizables actualizados con {force: true})
   navigate() {
-    cy.visit('/#/login');
+    // URL ultra-estable de login real
+    cy.visit('https://the-internet.herokuapp.com/login');
   }
 
- typeEmail(email) {
-    // Añadimos delay: 150 junto al force: true
-    this.emailInput.clear({force: true}).type(email, {force: true, delay: 150});
+  typeEmail(username) {
+    // Mantenemos tu delay humano de 150ms y el force por seguridad
+    this.usernameInput.clear({force: true}).type(username, {force: true, delay: 150});
   }
 
   typePassword(password) {
-    // Añadimos delay: 150 junto al force: true
     this.passwordInput.clear({force: true}).type(password, {force: true, delay: 150});
   }
 
