@@ -240,7 +240,7 @@ Si el proyecto te resulta útil o interesante, considera darle una ⭐ al reposi
 
 <div align="center">
 
-### 🚀 Quality Assurance Through Automation
+### 🚀  Garantía de calidad mediante la automatización
 
 Construyendo software más confiable mediante pruebas automatizadas.
 
