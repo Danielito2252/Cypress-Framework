@@ -54,6 +54,14 @@ Su propósito es servir como evidencia práctica de conocimientos en automatizac
 
 </div>
 
+# 📸 Evidencia de Ejecución
+
+<div align="center">
+
+![Cypress Execution](images/cypress-run.png)
+
+</div>
+
 
 ---
 
